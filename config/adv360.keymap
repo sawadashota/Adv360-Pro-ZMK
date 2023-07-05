@@ -39,11 +39,11 @@
 
         default_layer {
             bindings = <
-   &kp ESC     &kp N1            &kp N2    &kp N3     &kp N4  &kp N5                         &tog 1                                                                             &mo 3  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
-   &kp TAB      &kp Q             &kp W     &kp E      &kp R   &kp T            &macro_ctrl_command                                                                             &none   &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
- &kp EQUAL      &kp A             &kp S     &kp D      &kp F   &kp G                        &kp TAB       &kp LGUI  &kp LALT                  &kp RIGHT_CONTROL   &kp RGUI      &none   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
- &kp LSHFT      &kp Z             &kp X     &kp C      &kp V   &kp B                                                &kp HOME                          &kp PG_UP                         &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
-     &mo 2  &kp GRAVE  &kp LEFT_CONTROL  &kp LEFT  &kp RIGHT                              &kp SPACE  &kp BACKSPACE   &kp END                          &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
+   &kp ESC     &kp N1            &kp N2    &kp N3     &kp N4  &kp N5               &tog 1                                                                             &mo 3  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
+   &kp TAB      &kp Q             &kp W     &kp E      &kp R   &kp T                &none                                                                             &none   &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
+ &kp EQUAL      &kp A             &kp S     &kp D      &kp F   &kp G              &kp TAB       &kp LGUI  &kp LALT                  &kp RIGHT_CONTROL   &kp RGUI      &none   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
+ &kp LSHFT      &kp Z             &kp X     &kp C      &kp V   &kp B                                      &kp HOME                          &kp PG_UP                         &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
+     &mo 2  &kp GRAVE  &kp LEFT_CONTROL  &kp LEFT  &kp RIGHT                    &kp SPACE  &kp BACKSPACE   &kp END                          &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
             >;
         };
 
@@ -59,11 +59,11 @@
 
         layer_fn {
             bindings = <
- &kp F1        &kp F2  &kp F3               &kp F4  &kp F5  &kp F6            &tog 1                                                   &mo 3  &kp F7  &kp F8    &kp F9          &kp F10        &kp F11         &kp F12
-  &none         &none   &none                &none   &none   &none             &none                                                   &none   &none   &none     &none           &kp UP          &none           &none
-  &none         &none   &none                &none   &none   &none             &none   &none   &none                   &none   &none   &none   &none   &none  &kp LEFT            &none      &kp RIGHT  &macro_dquotes
-  &none         &none   &none                &none   &none   &none                             &none                   &none                   &none   &none     &none         &kp DOWN          &none           &none
-  &none  &macro_grave   &none  &macro_ctrl_command   &none                     &none   &none   &none                   &none   &none   &none           &none     &none  &macro_brackets  &macro_braces           &none
+ &kp F1        &kp F2  &kp F3            &kp F4  &kp F5  &kp F6            &tog 1                                                   &mo 3  &kp F7  &kp F8    &kp F9          &kp F10        &kp F11         &kp F12
+  &none         &none   &none             &none   &none   &none             &none                                                   &none   &none   &none     &none           &kp UP          &none           &none
+  &none         &none   &none             &none   &none   &none             &none   &none   &none                   &none   &none   &none   &none   &none  &kp LEFT            &none      &kp RIGHT  &macro_dquotes
+  &none         &none   &none             &none   &none   &none                             &none                   &none                   &none   &none     &none         &kp DOWN          &none           &none
+  &none  &macro_grave   &none  &kp LC(LG(LEFT))   &none                     &none   &none   &none                   &none   &none   &none           &none     &none  &macro_brackets  &macro_braces           &none
             >;
         };
 
